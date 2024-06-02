@@ -18,5 +18,5 @@ inputs:
     required: false
     description: "Additional HTTP headers to be sent alongside the request"
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
