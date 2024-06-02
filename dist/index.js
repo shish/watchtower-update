@@ -65,6 +65,7 @@ function run() {
                 url = [url, '?', query].join('');
             }
             // Send request
+            console.log("Calling", url);
             yield axios_1.default.get(url, {
                 headers: Object.assign({ Authorization: `Bearer ${apiToken}` }, (headers || {}))
             });

@@ -32,7 +32,7 @@ async function run(): Promise<void> {
     }
 
     // Send request
-    console.log("Calling", url);
+    console.log('Calling', url)
     await axios.get(url, {
       headers: {
         Authorization: `Bearer ${apiToken}`,
